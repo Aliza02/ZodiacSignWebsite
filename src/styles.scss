@@ -1,4 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.heading{
+    margin-left: 20px;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    
+
+}
+.sidenav{
+    width: 50%;
+    background-color: white;
+    
+}
+.sidenav .main-menu a{
+    color:black;
+    text-align: center;
+}
+
+.navbar
+{
+    background-color:rgba(46, 42, 42, 0.911);
+    color:white;
+}
+.handset-navbar{
+    background-color:rgba(85, 80, 80, 0.247);
+    overflow: hidden;
+}
+.btn
+{
+    background-color: white;
+    border-radius: 5px;
+}
+span{
+    padding-right: 3rem;
+    
+
+}
+.links{
+    position: absolute;
+    left:68%;
+}

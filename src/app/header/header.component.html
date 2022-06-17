@@ -1,1 +1,46 @@
-<p>header works!</p>
+<!-- <button mat-flat-button (click)="openDialog()" color="primary">Open Dialog</button> -->
+
+<mat-sidenav-container class="sidenav-container" *ngIf="isHandset$ |async">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport
+                 [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+                 [mode]="(isHandset$ | async) ? 'over' : 'side'"
+                 [opened]="(isHandset$ | async) === false">
+      <mat-nav-list class="main-menu">
+        <a mat-list-item routerLink="/home">Home</a>
+        <a mat-list-item routerLink="/about">About</a>
+        <a mat-list-item routerLink="/contact">Contact</a>
+        
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <mat-toolbar class="handset-navbar">
+        <button class="btn"
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()"
+          *ngIf="isHandset$ | async">
+          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+        <h1 class="heading">Zodiac Stars</h1>
+      </mat-toolbar>
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+  
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  <mat-toolbar  class="navbar" *ngIf="!(isHandset$| async)">
+    <div class="heading" >Zodiac Stars</div>
+    <div  class="links">
+      <span>Home</span>
+      <span>About</span>
+      <span>Contact</span>
+    </div>
+    </mat-toolbar>
+    <div class="container" *ngIf="!(isHandset$| async)">
+        <router-outlet></router-outlet>
+    </div>
+    
+  

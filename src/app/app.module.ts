@@ -11,6 +11,13 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import {MatCardModule} from '@angular/material/card';
+import { AriesComponent } from './aries/aries.component';
+import { TaurusComponent } from './taurus/taurus.component';
+import { GeminiComponent } from './gemini/gemini.component';
+import { CancerComponent } from './cancer/cancer.component';
+
 
 
 
@@ -20,7 +27,12 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     AppComponent,
     DialogExampleComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    AriesComponent,
+    TaurusComponent,
+    GeminiComponent,
+    CancerComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +42,8 @@ import { HeaderComponent } from './header/header.component';
     MatToolbarModule
     ,MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
