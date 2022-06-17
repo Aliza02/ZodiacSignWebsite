@@ -17,6 +17,7 @@ import { AriesComponent } from './aries/aries.component';
 import { TaurusComponent } from './taurus/taurus.component';
 import { GeminiComponent } from './gemini/gemini.component';
 import { CancerComponent } from './cancer/cancer.component';
+import { LeoComponent } from './leo/leo.component';
 
 
 
@@ -32,7 +33,8 @@ import { CancerComponent } from './cancer/cancer.component';
     AriesComponent,
     TaurusComponent,
     GeminiComponent,
-    CancerComponent
+    CancerComponent,
+    LeoComponent
   ],
   imports: [
     BrowserModule,
