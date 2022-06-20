@@ -8,6 +8,7 @@ import { DialogExampleComponent } from '../dialog-example/dialog-example.compone
 import { GeminiComponent } from '../gemini/gemini.component';
 import { LeoComponent } from '../leo/leo.component';
 import { LibraComponent } from '../libra/libra.component';
+import { ScorpioComponent } from '../scorpio/scorpio.component';
 import { TaurusComponent } from '../taurus/taurus.component';
 import { VirgoComponent } from '../virgo/virgo.component';
 
@@ -26,6 +27,6 @@ export class HomeComponent implements OnInit {
   
   openDialog()
     {
-    let dialogref=this.dialog.open(LibraComponent,{   width:'550px' , height:'900px'});
+    let dialogref=this.dialog.open(ScorpioComponent,{   width:'550px' , height:'900px'});
     }
 }
