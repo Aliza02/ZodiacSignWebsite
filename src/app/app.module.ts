@@ -18,6 +18,7 @@ import { TaurusComponent } from './taurus/taurus.component';
 import { GeminiComponent } from './gemini/gemini.component';
 import { CancerComponent } from './cancer/cancer.component';
 import { LeoComponent } from './leo/leo.component';
+import { VirgoComponent } from './virgo/virgo.component';
 
 
 
@@ -34,7 +35,8 @@ import { LeoComponent } from './leo/leo.component';
     TaurusComponent,
     GeminiComponent,
     CancerComponent,
-    LeoComponent
+    LeoComponent,
+    VirgoComponent
   ],
   imports: [
     BrowserModule,

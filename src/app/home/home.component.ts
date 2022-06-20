@@ -8,6 +8,7 @@ import { DialogExampleComponent } from '../dialog-example/dialog-example.compone
 import { GeminiComponent } from '../gemini/gemini.component';
 import { LeoComponent } from '../leo/leo.component';
 import { TaurusComponent } from '../taurus/taurus.component';
+import { VirgoComponent } from '../virgo/virgo.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +25,6 @@ export class HomeComponent implements OnInit {
   
   openDialog()
     {
-    let dialogref=this.dialog.open(LeoComponent,{   width:'550px' , height:'900px'});
+    let dialogref=this.dialog.open(VirgoComponent,{   width:'550px' , height:'900px'});
     }
 }

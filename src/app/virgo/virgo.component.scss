@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.close-btn{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 85%;
+    cursor: pointer;
+}
