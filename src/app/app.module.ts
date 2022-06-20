@@ -19,6 +19,12 @@ import { GeminiComponent } from './gemini/gemini.component';
 import { CancerComponent } from './cancer/cancer.component';
 import { LeoComponent } from './leo/leo.component';
 import { VirgoComponent } from './virgo/virgo.component';
+import { LibraComponent } from './libra/libra.component';
+import { ScorpioComponent } from './scorpio/scorpio.component';
+import { SagittariusComponent } from './sagittarius/sagittarius.component';
+import { CapricornComponent } from './capricorn/capricorn.component';
+import { AquariusComponent } from './aquarius/aquarius.component';
+import { PiscesComponent } from './pisces/pisces.component';
 
 
 
@@ -36,7 +42,13 @@ import { VirgoComponent } from './virgo/virgo.component';
     GeminiComponent,
     CancerComponent,
     LeoComponent,
-    VirgoComponent
+    VirgoComponent,
+    LibraComponent,
+    ScorpioComponent,
+    SagittariusComponent,
+    CapricornComponent,
+    AquariusComponent,
+    PiscesComponent
   ],
   imports: [
     BrowserModule,
