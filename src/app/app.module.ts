@@ -26,6 +26,8 @@ import { CapricornComponent } from './capricorn/capricorn.component';
 import { AquariusComponent } from './aquarius/aquarius.component';
 import { PiscesComponent } from './pisces/pisces.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -50,7 +52,9 @@ import { FooterComponent } from './footer/footer.component';
     CapricornComponent,
     AquariusComponent,
     PiscesComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
