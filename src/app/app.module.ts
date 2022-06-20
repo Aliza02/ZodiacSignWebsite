@@ -25,6 +25,7 @@ import { SagittariusComponent } from './sagittarius/sagittarius.component';
 import { CapricornComponent } from './capricorn/capricorn.component';
 import { AquariusComponent } from './aquarius/aquarius.component';
 import { PiscesComponent } from './pisces/pisces.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -48,7 +49,8 @@ import { PiscesComponent } from './pisces/pisces.component';
     SagittariusComponent,
     CapricornComponent,
     AquariusComponent,
-    PiscesComponent
+    PiscesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

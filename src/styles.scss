@@ -1,7 +1,4 @@
 
-
-
-
 .heading{
     margin-left: 20px;
     font-size: 30px;
@@ -27,7 +24,7 @@
     color:white;
 }
 .handset-navbar{
-    background-color:rgba(85, 80, 80, 0.247);
+    // background-color:rgba(85, 80, 80, 0.247);
     overflow: hidden;
 }
 .btn
@@ -43,4 +40,16 @@ span{
 .links{
     position: absolute;
     left:68%;
+}
+
+
+@media(max-width:959px)
+{
+    body{
+        background-color: rgba(128, 128, 128, 0.055);
+    }
+    mat-sidenav-container{
+        background-color: white;
+    }
+
 }

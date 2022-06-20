@@ -49,3 +49,14 @@
     margin-left: 30%;
     cursor: pointer;
 }
+
+
+@media(max-width:959px){
+   .signs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+}
